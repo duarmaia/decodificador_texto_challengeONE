@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Decodificador de Texto</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <section class="container">
+        <div class="containerMensagem">
+            <nav>
+                <img src="./assets//Logowhite.png" alt="icone Alura representado pela letra A minuscula">
+                <span>Decodificador de Texto</span>
+            </nav>
+
+            <div class="containerTexto">
+                <div class="containerTextoEntrada">
+                    <div class="containerTextoCodificar">
+                        <label>Digite aqui seu texto:</label>
+                        <textarea name="textoEntrada" class="textoEntrada"
+                            placeholder=">>>>Deixe sua mensagem/missão para o espião: Twilight!" rows="4"
+                            cols="35" ></textarea>
+                    </div>
+                    
+                </div>
+                
+                <div class="containerBotoes">
+                    <div class="containerBotoesTexto">
+                        <p>• Apenas letras minúsculas e sem acento!</p>
+                    </div>
+                    <button class="botoestexto" onclick="btnCodificar()">Codificar</button>
+                    <button class="botoestexto" onclick="btnDescodificar()">Descodificar</button>
+                </div>
+            </div>
+        </div>
+
+        <section class="resultado">
+            <div>
+                <textarea class="mensagem" cols="20" rows="25"></textarea>
+                
+            </div>
+            <button class="botao-copiar">Copiar</button>
+                     
+        </section>
+        
+    </section>
+    <div id="toast" class="toast"></div>  
+    <script src="app.js"></script>
+</body>
+
+</html>
