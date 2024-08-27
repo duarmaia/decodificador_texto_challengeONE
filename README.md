@@ -2,6 +2,9 @@
 > Repositório destinado ao  Challenge desenvolvido pelo programa ONE cujo objetivo é  criar um decodificador de texto.
 > Ou melhor, nos ajude a mandar uma mensagem codificada para o melhor espião: Twilight <img width="3%" src="/assets/1.png">
 
+### Deploy:
+🖥️ <https://duarmaia.github.io/decodificador_texto_challengeONE/>
+
 ### Objetivo:
 uma página web que permita ao usuário inserir uma mensagem de texto e, em seguida, codificá-la ou decodificá-la de acordo com um conjunto específico de regras de substituição de letras.
 
@@ -29,7 +32,6 @@ Restrições: A codificação e decodificação ocorrem apenas com letras minús
 2. Ao clicar no botão "Codificar", a palavra é transformada em "gaitober" e exibida no campo de saída.
 3. Ao clicar no botão "Descodificar", a palavra "gaitober" é transformada de volta em "gato".
    
-### Deploy:
 
 
 
