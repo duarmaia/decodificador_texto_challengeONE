@@ -6,11 +6,11 @@
 🖥️ <https://duarmaia.github.io/decodificador_texto_challengeONE/>
 
 ### Objetivo:
-uma página web que permita ao usuário inserir uma mensagem de texto e, em seguida, codificá-la ou decodificá-la de acordo com um conjunto específico de regras de substituição de letras.
+Uma página web que permita ao usuário inserir uma mensagem de texto e, em seguida, codificá-la ou descodificá-la de acordo com um conjunto específico de regras de substituição de letras.
 
 ### Funcionalidades:
-- Entrada de texto: Um campo de texto onde o usuário digita a mensagem a ser codificada ou decodificada.
-- Botões de ação: Botões para executar as operações de codificação e decodificação.
+- Entrada de texto: Um campo de texto onde o usuário digita a mensagem a ser codificada ou descodificada.
+- Botões de ação: Botões para executar as operações de codificação e descodificação.
 - Saída de texto: Um campo de texto onde o resultado da operação é exibido.
 - Extra: Função copiar que exibe na tela um retorno ao usuário, mostrando o que foi copiado ao clicar o botão "Copiar".
 
@@ -22,7 +22,7 @@ Cada vogal minúscula será substituída por uma sequência de letras específic
 - "o" -> "ober"
 - "u" -> "ufat"
 
-Restrições: A codificação e decodificação ocorrem apenas com letras minúsculas. Caracteres especiais e acentos não são permitidos.
+Restrições: A codificação e descodificação ocorrem apenas com letras minúsculas. Caracteres especiais e acentos não são permitidos.
 
 ### Tecnologias:
 ``HTML`` ``CSS`` ``Javascript``
